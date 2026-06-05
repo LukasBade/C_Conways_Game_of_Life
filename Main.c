@@ -43,7 +43,7 @@ void updatedboard(int board[20][20])
     }
     
 
-
+//Update altes Board?
     for (int y = 0; y < 20; y++)
     {
         for (int x = 0; x < 20; x++)
