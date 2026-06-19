@@ -4,7 +4,7 @@
 
 int checkneighbours(int board[20][20], int x, int y);
 
-void console_clear_screen()
+void console_clear_screen() // clear console
 {
     printf("\x1b[H\x1b[J");
 }
@@ -79,6 +79,7 @@ int main()
     char command;
     int pos_x, pos_y;
 
+    // User input for number of generations und placement
     printf("Anzahl der zu simulierenden Generationen: ");
     if (scanf("%d", &max_generations) != 1) return 1;
 
